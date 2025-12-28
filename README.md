@@ -46,43 +46,220 @@
 
 ```python
 class AbhishekNayak:
+    """
+    A unique blend of software engineering precision and financial acumen 💼
+    """
+    
     def __init__(self):
         self.name = "Abhishek Nayak"
         self.role = "Finance × Technology Hybrid"
         self.location = "🇮🇳 Bangalore, India"
         self.education = {
-            "masters": "M.Sc. Financial Management (UoB)",
-            "gpa": "3.3/4.0",
-            "bachelors": "B.Tech Mechanical (VIT)",
-            "cgpa": "8.05/10"
+            "masters": {
+                "degree": "M.Sc. Financial Management",
+                "university": "University of Birmingham 🎓",
+                "gpa": "3.3/4.0",
+                "specialization": ["ESG Analytics", "Investment Banking", "Quantitative Finance"]
+            },
+            "bachelors": {
+                "degree": "B.Tech Mechanical Engineering",
+                "university": "VIT Bhopal 🏫",
+                "cgpa": "8.05/10.0",
+                "achievements": ["Rank 1 Intern", "IBM Hackathon Runner-up"]
+            }
         }
-        self.languages = ["English (C2)", "Hindi", "Odia"]
-        
+        self.languages = {
+            "professional": "English (C2 Level)",
+            "native": ["Hindi", "Odia"],
+            "programming": ["Python", "R", "Java", "SQL", "JavaScript"]
+        }
+        self.current_status = "🟢 Available for opportunities"
+    
     def current_work(self):
+        """What I'm working on right now"""
         return {
             "🔬 role": "Research Assistant - Sustainable Finance",
             "🏛️ university": "University of Birmingham",
+            "⏰ duration": "Sep 2023 - Present",
             "🎯 focus": [
-                "AI-powered ESG monitoring systems",
-                "ML sentiment analysis (87% accuracy)",
-                "Financial market modeling",
-                "Multi-stakeholder risk frameworks"
-            ]
+                "🤖 AI-powered ESG monitoring systems",
+                "📊 ML sentiment analysis (87% accuracy achieved!)",
+                "💹 Financial market modeling & forecasting",
+                "🌍 Multi-stakeholder risk frameworks (SEBI, RBI, FCA)"
+            ],
+            "💡 innovation": "Built NLP models processing 200K+ regulatory documents",
+            "📈 impact": "Reduces compliance costs by 40% for corporations"
         }
     
-    def previous_roles(self):
+    def previous_experience(self):
+        """My professional journey so far"""
+        experience_timeline = {
+            "2024": {
+                "🏦 ICICI Bank": {
+                    "role": "Credit Risk Analyst",
+                    "duration": "Sep-Nov 2024",
+                    "achievement": "Retail banking risk metrics analysis"
+                }
+            },
+            "2023-2024": {
+                "💼 JPMorgan Chase": {
+                    "role": "Investment Banking Analyst (EMEA)",
+                    "duration": "Jul-Dec 2023",
+                    "key_wins": [
+                        "$42M company valuation delivered",
+                        "16% reduction in financing costs",
+                        "45% increase in client engagement"
+                    ]
+                }
+            },
+            "2022-2023": {
+                "💻 Cognizant": {
+                    "role": "Programmer Analyst",
+                    "duration": "18 months",
+                    "impact": [
+                        "Supported 50K+ users",
+                        "Led 83 business-critical apps",
+                        "12% query performance improvement",
+                        "Achieved 90% test coverage"
+                    ]
+                }
+            }
+        }
+        return experience_timeline
+    
+    def skills_matrix(self):
+        """My technical & financial superpowers"""
+        return {
+            "💰 Financial Analysis": {
+                "modeling": ["DCF", "M&A Valuation", "LBO", "Credit Risk"],
+                "tools": ["Excel (Advanced)", "Bloomberg", "Eikon", "Capital IQ"],
+                "expertise": ["Portfolio Optimization", "Risk Management", "ESG Analytics"]
+            },
+            "🤖 AI/ML": {
+                "techniques": ["NLP", "Sentiment Analysis", "Time Series", "Deep Learning"],
+                "frameworks": ["TensorFlow", "scikit-learn", "Transformers (BERT)"],
+                "achievements": ["87% accuracy models", "Real-time monitoring systems"]
+            },
+            "💻 Software Engineering": {
+                "languages": ["Python ⭐⭐⭐⭐⭐", "R ⭐⭐⭐⭐⭐", "Java ⭐⭐⭐⭐", "SQL ⭐⭐⭐⭐⭐"],
+                "frameworks": ["Spring Boot", "React", "FastAPI"],
+                "databases": ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
+                "cloud": ["AWS (EC2, S3, Lambda)", "Docker"]
+            },
+            "📊 Data Science": {
+                "analysis": ["Pandas", "NumPy", "Statistical Modeling"],
+                "visualization": ["Tableau", "Power BI", "Plotly", "ggplot2"],
+                "econometrics": ["OLS", "REM", "Cointegration", "BHAR/CAR"]
+            }
+        }
+    
+    def current_projects(self):
+        """What keeps me up at night (in a good way!)"""
         return [
-            "💼 JPMorgan Chase - Investment Banking Analyst",
-            "🏦 ICICI Bank - Credit Risk Analyst",
-            "💻 Cognizant - Programmer Analyst (18 months)"
+            {
+                "name": "🌍 ESG Compliance AI",
+                "status": "🚀 In Production (Beta)",
+                "description": "AI-powered cross-regulatory compliance monitoring",
+                "tech_stack": ["Python", "BERT", "PostgreSQL", "Streamlit"],
+                "metrics": "89% classification accuracy, 200K+ docs processed"
+            },
+            {
+                "name": "📈 Quantitative Trading Strategies",
+                "status": "🔬 Research Phase",
+                "description": "ML-driven algorithmic trading models",
+                "tech_stack": ["Python", "TensorFlow", "Pandas"],
+                "focus": "Portfolio optimization & risk modeling"
+            },
+            {
+                "name": "📊 IPO Performance Analyzer",
+                "status": "✅ Completed",
+                "description": "3-year post-IPO analysis using BHAR & CHAR",
+                "findings": "61% underpricing in Wingstop, 8% variance in returns"
+            }
         ]
     
+    def career_goals_2025(self):
+        """Where I'm headed"""
+        return {
+            "Q1": ["🎯 Publish ESG research paper", "📚 CFA Level I prep"],
+            "Q2": ["🚀 Launch commercial ESG platform", "🎤 Conference presentation"],
+            "Q3": ["💼 Investment Banking / Quant Analyst role", "📝 Complete thesis"],
+            "Q4": ["🌟 Mentor aspiring quants", "🔧 Contribute to open-source FinTech"]
+        }
+    
     def life_philosophy(self):
-        return "Bridging code and capital markets 🌉"
+        """My guiding principle"""
+        return """
+        🌉 Bridging code and capital markets
+        💡 From mechanical gears to financial models
+        🚀 Continuous learning, continuous evolution
+        🤝 Technology should serve humanity's financial wellbeing
+        """
+    
+    def fun_facts(self):
+        """Beyond the professional persona"""
+        return {
+            "🏎️": "Die-hard F1 fan (Team Hamilton!)",
+            "⚽": "Arsenal FC supporter (pain is real)",
+            "📚": "Currently reading: 'Principles' by Ray Dalio",
+            "🌱": "Weekend gardener (herbs & vegetables)",
+            "✈️": "15 cities explored, many more to go",
+            "🎸": "Learning guitar (beginner struggles)",
+            "🍛": "Can cook a mean biryani"
+        }
+    
+    def get_in_touch(self):
+        """Let's connect!"""
+        return {
+            "email": "itsmenayakabhishek@gmail.com",
+            "linkedin": "linkedin.com/in/me-nayak-abhishek",
+            "phone": "+91 7008012098",
+            "location": "Bangalore, India (IST)",
+            "availability": "Open to: Full-time roles | Freelance | Research collaborations",
+            "interests": ["Quant Finance", "ESG Tech", "AI in Finance", "FinTech Innovation"]
+        }
+    
+    def __str__(self):
+        return f"""
+        👨‍💼 {self.name} | {self.role}
+        📍 {self.location}
+        🎓 M.Sc. Financial Management (GPA: 3.3/4.0)
+        💼 Ex-JPMorgan | Ex-Cognizant | Ex-ICICI
+        🔬 Current: {self.current_work()['🔬 role']}
+        🌟 {self.current_status}
+        """
 
+# Initialize and showcase
 me = AbhishekNayak()
-print(f"🚀 {me.current_work()['🔬 role']} @ {me.current_work()['🏛️ university']}")
+
+# Current focus
+print("=" * 60)
+print(f"🚀 Currently: {me.current_work()['🔬 role']}")
+print(f"🏛️  @ {me.current_work()['🏛️ university']}")
+print(f"📊 Key Achievement: {me.current_work()['💡 innovation']}")
+print("=" * 60)
+
+# Quick stats
+print("\n📈 Quick Stats:")
+print(f"   💰 $42M+ in deal valuations")
+print(f"   🤖 87% ML model accuracy")
+print(f"   👥 50K+ users supported")
+print(f"   📝 2 research papers under review")
+print(f"   🎓 £15K research funding secured")
+
+# Let's build something together!
+print("\n" + me.life_philosophy())
+print("\n💬 Let's connect and create something impactful!")
 ```
+
+<div align="center">
+
+**🔥 Fun Interactive Element: Try running this code to learn more about me! 🔥**
+
+[![Open in GitHub Codespaces](https://img.shields.io/badge/Open%20in-Codespaces-blue?style=for-the-badge&logo=github)](https://github.com/codespaces)
+[![Download Resume](https://img.shields.io/badge/Download-Resume-success?style=for-the-badge&logo=adobeacrobatreader)](https://github.com/NayakAbhishek)
+
+</div>
 
 <br clear="right"/>
 
