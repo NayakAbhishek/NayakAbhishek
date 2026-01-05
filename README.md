@@ -12,7 +12,6 @@
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/abhishek_nayak._/)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white)](tel:+917008012098)
 
-<br/>
 
 **📍 Bangalore, India** | **🎓 M. Sc. Financial Management (3.3/4.0)** | **🟢 Open to Opportunities**
 
@@ -25,7 +24,6 @@
 ## ✨ Quick Impact Dashboard
 
 | 💰 Deal Valuations | 🤖 ML Accuracy | 👥 Users Impacted | 📚 Research | 💼 Cash Analysis | 📊 Cost Savings |
-|: ---:|:---:|:---:|:---:|:---:|:---:|
 | **$42M+** | **87%** | **50K+** | **2 Papers** | **£10M+** | **£4. 5M** |
 
 ---
